@@ -28,18 +28,18 @@ const DisplayMonthlyCalendar = props => {
   };
 
   const months = [
-    { id: 0, name: "Jan" },
-    { id: 1, name: "Feb" },
-    { id: 2, name: "Mar" },
-    { id: 3, name: "Apr" },
-    { id: 4, name: "May" },
-    { id: 5, name: "Jun" },
-    { id: 6, name: "Jul" },
-    { id: 7, name: "Aug" },
-    { id: 8, name: "Sep" },
-    { id: 9, name: "Oct" },
-    { id: 10, name: "Nov" },
-    { id: 11, name: "Dec" }
+    { id: 0, name: "Հունվար" },
+    { id: 1, name: "Փետրվար" },
+    { id: 2, name: "Մարտ" },
+    { id: 3, name: "Ապրիլ" },
+    { id: 4, name: "Մայիս" },
+    { id: 5, name: "Հունիս" },
+    { id: 6, name: "Հուլիս" },
+    { id: 7, name: "Օգոստոս" },
+    { id: 8, name: "Սեպտեմբեր" },
+    { id: 9, name: "Հոկտեմբեր" },
+    { id: 10, name: "Նոյեմբեր" },
+    { id: 11, name: "Դեկտեմբեր" }
   ];
   let rowsOfMonths = [];
   let rows = [];
