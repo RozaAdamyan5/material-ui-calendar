@@ -21,13 +21,13 @@ const DisplayDailyCalendar = props => {
   const endDate = dateFns.endOfWeek(monthEnd);
 
   const weekdays = [
-    { id: 0, day: "Sun" },
-    { id: 1, day: "Mon" },
-    { id: 2, day: "Tue" },
-    { id: 3, day: "Wed" },
-    { id: 4, day: "Thu" },
-    { id: 5, day: "Fri" },
-    { id: 6, day: "Sat" }
+    { id: 0, day: "Կիրակի" },
+    { id: 1, day: "Երկուշաբթի" },
+    { id: 2, day: "Երեքշաբթի" },
+    { id: 3, day: "Չորեքշաբթի" },
+    { id: 4, day: "Հինգշաբթի" },
+    { id: 5, day: "Ուրբաթ" },
+    { id: 6, day: "Շաբաթ" }
   ];
 
   const eachWeek = [];
